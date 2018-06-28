@@ -43,17 +43,17 @@ iframe {
 	margin-bottom: 0 !important;
 }
 ::selection {
-    color: #506A85;
+    color: #434343;
 }
 ::-moz-selection {
     background: #424242; /* Firefox */
-    color: #506A85;
+    color: #434343;
 }
 html:not(.no-csstransitions) main [class*="col-"] {
 	opacity: 0; /* Hide content for animations on scroll in scripts.js */
 }
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Dosis', sans-serif;
     background-color: #283645;
     color: #73879C;
     font-size: 18px;
@@ -86,7 +86,7 @@ p a:hover {
 	border-color: transparent;
 }
 a {
-    color: inherit;
+    color: #434343;
     -webkit-transition: all 200ms ease-out;
        -moz-transition: all 200ms ease-out;
          -o-transition: all 200ms ease-out;
@@ -94,7 +94,9 @@ a {
 }
 a:hover,
 a:focus {
-    color: #cfe2f3;
+    color: #434343;
+    opacity: .8;
+#84e8e1ff;
     text-decoration: none;
 }
 h1,
@@ -103,10 +105,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight: 700;
 	letter-spacing: 0.025em;
-    color: #506A85;
+    color: #434343;
     margin-top: 0;
 	/*word-wrap: break-word;*/
 }
@@ -150,7 +152,8 @@ a:hover .logo {
 	opacity: .6;
 }
 a.green:hover {
-    background: #cfe2f3 !important;
+    background: font-family: 'Dosis', sans-serif;
+#84e8e1ff !important;
 }
 a.blue:hover {
     background: #3F8DBF !important;
@@ -191,7 +194,8 @@ ul.arrowed li:before {
     font-family: 'fontello';
 	font-size: 75%;
     font-weight: normal;
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	vertical-align: baseline;
     content: '\e846';
 	margin-top: 1px;
@@ -203,7 +207,8 @@ ul.circled li:before {
     content: '\e800';
     font-size: 8px;
     font-weight: normal;
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     padding-top: 1px;
 	margin-left: -20px;
     vertical-align: top;
@@ -442,7 +447,7 @@ main header + * {
 	font-weight: 700;
 	line-height: 44px;
 	text-align: center;
-	color: #506A85;
+	color: #434343;
 	margin: 6px 15px 0 0;
 }
 .dropcap-lg {
@@ -455,7 +460,7 @@ main header + * {
 	font-weight: 700;
 	line-height: 70px;
 	text-align: center;
-	color: #506A85;
+	color: #434343;
 	margin: 6px 15px 0 0;
 }
 blockquote {
@@ -486,7 +491,7 @@ blockquote .small:after {
 	display: inline-block;
 	width: 20px;
 	height: 1px;
-	background-color: #506A85;
+	background-color: #434343;
 	margin-bottom: .28em;
 }
 blockquote footer:before,
@@ -573,7 +578,7 @@ figure.post-media + * {
 .member figcaption h2 span,
 .member figcaption h3 span {
 	display: block;
-	font-family: 'Quicksand', sans-serif;
+  font-family: 'Dosis', sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.015em;
 }
@@ -675,7 +680,8 @@ figure.post-media + * {
 	opacity: .57;
 }
 .tint-bg.img-bg-soft:before {
-	background-color: #cfe2f3;
+	background-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	opacity: .84;
 }
 .light-bg.img-bg-softer:before {
@@ -687,7 +693,8 @@ figure.post-media + * {
 	opacity: .97;
 }
 .tint-bg.img-bg-softer:before {
-	background-color: #cfe2f3;
+	background-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	opacity: .96;
 }
 .screen-container {
@@ -770,7 +777,8 @@ iframe + iframe {
 	z-index: 0;
 }
 .green-bg {
-    background-color: #cfe2f3 !important;
+    background-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff !important;
 	color: #FFF !important;
 	padding: 2px 8px 4px;
 	margin-top: -2px;
@@ -841,7 +849,8 @@ iframe + iframe {
     color: #FFF;
 }
 .tint-bg {
-    background-color: #cfe2f3;
+    background-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	color: #FFF;
 	padding: 2px 8px;
 	margin-top: -2px;
@@ -857,7 +866,7 @@ iframe + iframe {
     color: #FFF;
 }
 .tint-bg a:hover {
-    color: #506A85;
+    color: #434343;
 }
 .light-color,
 .light-color .dark-bg {
@@ -867,13 +876,15 @@ iframe + iframe {
 	color: #A3B1BF !important;
 }
 .dark-color {
-	color: #506A85 !important;
+	color: #434343 !important;
 }
 .tint-color {
-	color: #cfe2f3 !important;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff !important;
 }
 .green {
-    color: #cfe2f3 !important;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff !important;
 }
 .blue {
     color: #3F8DBF !important;
@@ -906,7 +917,8 @@ iframe + iframe {
 }
 .icon.circle {
 	padding: 30px;
-	border: 1px solid #cfe2f3;
+	border: 1px solid font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	border-radius: 50%;
 }
 .icon.circle.xs {
@@ -920,7 +932,8 @@ iframe + iframe {
 }
 .icon i.icn {
     display: block;
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     font-size: 65px;
     line-height: 100%;
     -webkit-transition: all 200ms ease-out;
@@ -1029,7 +1042,8 @@ footer p {
 }
 .meta a:hover,
 .more:hover {
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .meta.tags a:before {
     content: "#";
@@ -1044,11 +1058,12 @@ footer p {
 }
 .bordered .info h3 a,
 .bordered .info h4 a {
-    color: #506A85;
+    color: #434343;
 }
 .bordered .info h3 a:hover,
 .bordered .info h4 a:hover {
-	color: #cfe2f3;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .bordered .info p {
 	font-size: 14px;
@@ -1069,7 +1084,7 @@ footer p {
 .dark-bg .bordered .info h4,
 .tint-bg .bordered .info h3,
 .tint-bg .bordered .info h4 {
-	color: #506A85;
+	color: #434343;
 }
 .dark-bg .bordered .info p,
 .tint-bg .bordered .info p {
@@ -1387,7 +1402,7 @@ aside .thumb figure {
 	line-height: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #506A85;
+	color: #434343;
 	padding: 15px 20px;
 	border: 1px solid rgba(255,255,255,0);
 	border-radius: 3px;
@@ -1404,7 +1419,8 @@ aside .thumb figure {
 	margin-top: -1px;
 }
 .nav > li.active > a {
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .nav > li > a:focus {
     background-color: transparent;
@@ -1413,7 +1429,8 @@ aside .thumb figure {
 .nav > li > a:hover {
     background-color: #F5F7FA;
     border-color: #E6E9ED;
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .navbar .dropdown-menu {
     padding: 0;
@@ -1455,7 +1472,8 @@ aside .thumb figure {
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active {
     filter: none;
     background-color: #F5F7FA;
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .navbar .nav .open > a,
 .navbar .nav .open > a:hover,
@@ -1479,7 +1497,8 @@ aside .thumb figure {
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus {
-    background: #cfe2f3;
+    background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     color: #FFF !important;
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -1496,7 +1515,8 @@ aside .thumb figure {
     color: #73879C;
 }
 .navbar-header .info a:hover {
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .navbar-form {
     padding: 0;
@@ -1584,7 +1604,8 @@ aside .thumb figure {
 	margin: 10px 0;
 }
 .yamm .yamm-content a:hover {
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .yamm .dropdown.yamm-fullwidth .dropdown-menu {
     width: 100%;
@@ -1605,10 +1626,11 @@ aside .thumb figure {
 }
 .btn {
     color: #FFF !important;
-    background: #cfe2f3;
+    background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     padding: 11px 20px 13px;
 	margin: 15px 0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
     font-weight: 700;
     font-size: 14px;
 	letter-spacing: 0.02em;
@@ -1634,7 +1656,8 @@ aside .thumb figure {
 	font-size: 15px;
 }
 .btn.btn-green {
-    background: #cfe2f3;
+    background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .btn.btn-blue {
     background: #3F8DBF;
@@ -1720,11 +1743,12 @@ aside .thumb figure {
 }
 .tint-bg .btn {
     background: #FFF !important;
-	color: #cfe2f3 !important;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff !important;
 }
 .tint-bg .btn:hover {
     background: #E9E9E9 !important;
-    color: #506A85 !important;
+    color: #434343 !important;
 }
 .btn.share-facebook {
     background: #3d5b9b !important
@@ -1840,7 +1864,7 @@ aside .thumb figure {
 .btn-share-xs p {
 	position: absolute;
 	height: 1.1em;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	line-height: 100%;
 	color: #FFF;
 	margin: auto;
@@ -2009,7 +2033,7 @@ p .btn {
 .tabs-side .tab a {
     display: block;
 	background: #F5F7FA;
-    color: #506A85;
+    color: #434343;
 	font-size: 14px;
 	line-height: 130%;
 	font-weight: 700;
@@ -2028,9 +2052,11 @@ p .btn {
 	border-bottom-left-radius: 3px;
 }
 .tabs-side .tab a:hover {
-	background: #cfe2f3;
+	background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	color: #FFF;
-	border-color: #cfe2f3;
+	border-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .tabs-side .tab:hover,
 .tabs-side .tab.active {
@@ -2038,7 +2064,8 @@ p .btn {
 }
 .tabs-side .tab.active a {
     background: #FFF !important;
-	color: #cfe2f3;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     border-color: #CED7E0 !important;
     border-right-color: #FFF !important;
 }
@@ -2046,10 +2073,11 @@ p .btn {
 	border-top-color: #CED7E0;
 }
 .tabs-side .tab.active + .tab a:hover {
-	border-top-color: #cfe2f3;
+	border-top-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .tabs-side .tab a div {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 40px;
 	line-height: 100%;
 	font-weight: 200;
@@ -2095,7 +2123,7 @@ p .btn {
     display: inline-block;
 	vertical-align: bottom;
 	background: #F5F7FA;
-    color: #506A85;
+    color: #434343;
 	font-size: 14px;
 	line-height: 130%;
 	font-weight: 700;
@@ -2108,23 +2136,26 @@ p .btn {
 	overflow: hidden;
 }
 .tabs-top .tab a div {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 40px;
 	line-height: 100%;
 	font-weight: 200;
 	margin: -10px 0 5px;
 }
 .tabs-top .tab a:hover {
-	background: #cfe2f3;
+	background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	color: #FFF;
-	border-color: #cfe2f3;
+	border-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .tabs-top .tab.active {
 	z-index: 2;
 }
 .tabs-top .tab.active a {
     background: #FFF !important;
-	color: #cfe2f3;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	border-color: #CED7E0 !important;
 }
 .tabs-top.tab-container .panel-container {
@@ -2170,7 +2201,7 @@ p .btn {
 	height: 130px;
 	max-width: 130px;
 	background: #FFF;
-    color: #506A85;
+    color: #434343;
 	font-size: 14px;
 	line-height: 130%;
 	font-weight: 700;
@@ -2181,14 +2212,15 @@ p .btn {
 	overflow: hidden;
 }
 .tabs-circle-top .tab a div {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 40px;
 	line-height: 100%;
 	font-weight: 200;
 	margin: -10px 0 5px;
 }
 .tabs-circle-top .tab a:hover {
-	/*border: 4px solid #cfe2f3;*/
+	/*border: 4px solid font-family: 'Dosis', sans-serif;
+#84e8e1ff;*/
 	background-color: #F5F7FA;
 	border-color: #CED7E0 !important;
 }
@@ -2199,11 +2231,13 @@ p .btn {
 	height: 160px;
 	width: 160px;
 	max-width: 160px;
-    background: #cfe2f3;
+    background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	font-size: 15px;
 	line-height: 140%;
 	color: #FFF;
-	border: 1px solid #cfe2f3;
+	border: 1px solid font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .tabs-circle-top .tab.active a:hover {
 	border-color: transparent !important;
@@ -2270,7 +2304,7 @@ p .btn {
 .tabs-2-big-top .tab a {
     display: block;
 	padding: 35px;
-    color: #506A85;
+    color: #434343;
 	opacity: .5;
 }
 .tabs-2-big-top .tab:hover {
@@ -2356,7 +2390,8 @@ blockquote:before {
 	bottom: 0;
 }
 .post.format-quote {
-	background-color: #cfe2f3;
+	background-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .format-quote .meta,
 .format-quote blockquote,
@@ -2374,7 +2409,7 @@ blockquote:before {
 	background-color: #FFF;
 }
 .format-quote .meta a:hover {
-	color: #506A85;
+	color: #434343;
 }
 
 
@@ -2411,7 +2446,7 @@ blockquote:before {
 	border-color: inherit !important;
 }
 .panel-title {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
     font-size: 15px;
 	line-height: 1.42857;
     font-weight: 700;
@@ -2423,23 +2458,24 @@ blockquote:before {
 }
 .panel-title > a.collapsed {
 	background: #F5F7FA;
-	color: #506A85;
+	color: #434343;
 }
 .panel-title > a,
 .panel-title > a:hover {
 	background: #EDF0F2;
 }
 .panel-title > a {
-	color: #506A85;
+	color: #434343;
 }
 .panel-title > a:hover {
-	color: #cfe2f3;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .panel-title > a span {
 	display: block;
 	position: relative;
 	top: 0;
-	color: #506A85;
+	color: #434343;
 	padding-right: 25px;
 	-webkit-transition: all 200ms ease-out;
 	   -moz-transition: all 200ms ease-out;
@@ -2485,7 +2521,8 @@ blockquote:before {
 	content: "\e84c";
 }
 .text-center .panel-title > a:hover span:after {
-	color: #cfe2f3;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	top: -.5em;
 	opacity: 1;
 }
@@ -2716,7 +2753,7 @@ blockquote:before {
 	vertical-align: middle;
 	width: 100%;
 	height: auto;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 14px;
 	line-height: 22px;
 	/*color: #FFF;*/
@@ -2823,7 +2860,8 @@ blockquote:before {
 	border-color: #BCC7D1;
 }
 .light-bg .filter li {
-	background: #cfe2f3;
+	background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .dark-bg .filter:before {
 	border-color: #73879C;
@@ -2943,7 +2981,7 @@ blockquote:before {
 .item-details li:before {
 	content: "";
 	font-family: "fontello";
-    color: #506A85;
+    color: #434343;
     margin-right: 10px;
 }
 .item-details li.date:before {
@@ -3000,7 +3038,7 @@ blockquote:before {
 	height: 30px;
 	font-size: 30px;
 	color: #FFF;
-	background-color: #506A85;
+	background-color: #434343;
 	border: none;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
@@ -3028,7 +3066,8 @@ blockquote:before {
 }
 .owl-carousel:hover .owl-prev:hover,
 .owl-carousel:hover .owl-next:hover {
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	opacity: 1;
 }
 .owl-outer-nav:after {
@@ -3323,13 +3362,16 @@ blockquote:before {
 }
 #owl-main .caption h1.dark-bg span,
 #owl-main .caption p.dark-bg span {
-	background: #506A85;
-	box-shadow: -.500em 0 0 #506A85, .500em 0 0 #506A85;
+	background: #434343;
+	box-shadow: -.500em 0 0 #434343, .500em 0 0 #434343;
 }
 #owl-main .caption h1.tint-bg span,
 #owl-main .caption p.tint-bg span {
-	background: #cfe2f3;
-	box-shadow: -.500em 0 0 #cfe2f3, .500em 0 0 #cfe2f3;
+	background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
+	box-shadow: -.500em 0 0 font-family: 'Dosis', sans-serif;
+#84e8e1ff, .500em 0 0 font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 #owl-main .owl-controls {
 	display: block;
@@ -3369,7 +3411,7 @@ blockquote:before {
 	display: block;
 	width: 15px;
 	height: 15px;
-	background: #506A85;
+	background: #434343;
 	border: none;
 	-webkit-border-radius: 50%;
 			border-radius: 50%;
@@ -3381,7 +3423,8 @@ blockquote:before {
 }
 .owl-pagination .owl-page.active span,
 .owl-pagination .owl-page:hover span {
-	background: #cfe2f3;
+	background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .owl-item-gap .item {
     margin: 0 15px;
@@ -3424,7 +3467,7 @@ blockquote:before {
 	margin-bottom: 15px;
 }
 .pricing .plan .price * {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	line-height: 100%;
 }
 .pricing .plan .price .amount {
@@ -3771,7 +3814,8 @@ input:focus:-ms-input-placeholder {
 			transition: all 200ms ease-out;
 }*/
 .meta li.categories:hover:before {
-	color: #cfe2f3;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	cursor: pointer;
 }
 .meta li.url a:before {
@@ -3820,10 +3864,12 @@ input:focus:-ms-input-placeholder {
     line-height: 1;
     width: 60px;
     height: 60px;
-    border: 1px solid #cfe2f3;
+    border: 1px solid font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #cfe2f3;
+    background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     font-weight: bold;
     color: #FFF;
     line-height: 1;
@@ -3896,13 +3942,16 @@ input:focus:-ms-input-placeholder {
     height: 40px;
     background: #FFF;
     text-align: center;
-    color: #cfe2f3;
+    color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     line-height: 1;
-	border: 1px solid #cfe2f3;
+	border: 1px solid font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     border-radius: 50%;
 }
 .sidemeta .format-wrapper a:hover {
-	background: #cfe2f3;
+	background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	color: #FFF;
 }
 .post-content > * {
@@ -4049,11 +4098,11 @@ input:focus:-ms-input-placeholder {
 /*===================================================================================*/
 
 .author {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
     font-size: 14px;
 	font-weight: 700;
     line-height: 160%;
-	color: #506A85;
+	color: #434343;
     margin-bottom: 5px;
 }
 .author a {
@@ -4152,11 +4201,12 @@ input:focus:-ms-input-placeholder {
     font-weight: 700;
 	line-height: 20px;
     text-transform: uppercase;
-    color: #506A85;
+    color: #434343;
     padding: 13px 18px;
 }
 .sidenav li a:hover {
-	background: #cfe2f3;
+	background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     color: #FFF;
 }
 .sidenav li a:after {
@@ -4182,24 +4232,29 @@ input:focus:-ms-input-placeholder {
 
 .tooltip-inner {
 	color: #fff;
-	background-color: #cfe2f3;
+	background-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	padding: 5px 12px;
 }
 .tooltip.top .tooltip-arrow,
 .tooltip.top-left .tooltip-arrow,
 .tooltip.top-right .tooltip-arrow {
-	border-top-color: #cfe2f3;
+	border-top-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .tooltip.right .tooltip-arrow {
-	border-right-color: #cfe2f3;
+	border-right-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .tooltip.left .tooltip-arrow {
-	border-left-color: #cfe2f3;
+	border-left-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 .tooltip.bottom .tooltip-arrow,
 .tooltip.bottom-left .tooltip-arrow,
 .tooltip.bottom-right .tooltip-arrow {
-	border-bottom-color: #cfe2f3;
+	border-bottom-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 }
 
 
@@ -4224,8 +4279,9 @@ input:focus:-ms-input-placeholder {
 	float: none;
 	display: inline-block;
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
-    background: #cfe2f3;
+    font-family: 'Dosis', sans-serif;
+    background: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
     padding: 11px 20px 13px;
 	margin-left: 0;
     font-weight: 700;
@@ -4359,7 +4415,7 @@ input:focus:-ms-input-placeholder {
 	font-size: 36px;
 	line-height: 100%;
 	color: #FFF;
-	background-color: #506A85;
+	background-color: #434343;
 	padding: 3px;
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
@@ -4367,7 +4423,8 @@ input:focus:-ms-input-placeholder {
 	opacity: .5;
 }
 #scrollUp:hover {
-	color: #cfe2f3;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	opacity: 1;
 }
 
@@ -4522,7 +4579,7 @@ input:focus:-ms-input-placeholder {
 	float: right;
 	font-size: 24px;
 	font-weight: 400;
-	color: #506A85;
+	color: #434343;
 	text-shadow: none;
 	margin-top: 0;
 	margin-left: 25px;
@@ -4540,7 +4597,7 @@ input:focus:-ms-input-placeholder {
 	opacity: 1 !important;
 }
 .modal-title {
-	color: #506A85 !important;
+	color: #434343 !important;
 	line-height: 150%;
 }
 .no-modal-header .modal-header {
@@ -4588,7 +4645,7 @@ input:focus:-ms-input-placeholder {
 }
 .btn-modal {
 	background: #F5F7FA !important;
-	color: #506A85 !important;
+	color: #434343 !important;
 	border: 1px solid #E6E9ED;
 	border-bottom-width: 2px;
 	box-shadow: none !important;
@@ -4598,7 +4655,8 @@ input:focus:-ms-input-placeholder {
 .btn-modal:active,
 .btn-modal.active {
     background: #EDF0F2 !important;
-	color: #cfe2f3 !important;
+	color: font-family: 'Dosis', sans-serif;
+#84e8e1ff !important;
 }
 
 
@@ -5550,7 +5608,8 @@ input:focus:-ms-input-placeholder {
 		border-top-color: #CED7E0;
 	}
 	.tabs-top .tab.active + .tab a:hover {
-		border-top-color: #cfe2f3;
+		border-top-color: font-family: 'Dosis', sans-serif;
+#84e8e1ff;
 	}
 
 	.filter:before, .format-filter:before {
