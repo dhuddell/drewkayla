@@ -28,6 +28,12 @@ figure img {
     width: 100%;
     height: auto;
 }
+.portrait {
+  /*placeholder*/
+}
+.skills-header, .process-header, .contact-header {
+  padding: 50px 0;
+}
 figure :not(.icon-overlay) a:hover,
 figure:not(.icon-overlay) > a:hover {
 	opacity: .7;
