@@ -6184,6 +6184,22 @@ a.changecolor {
 #contact-form h2:hover {
   color: #E89F29;
 }
+.sub-headerz{
+	padding-top:25px;
+}
 .mock-up{
   max-height: 200px;
+}
+
+.mock-up-big {
+	max-height: 500px;
+}
+.deliverables {
+	padding-left: 50px;
+}
+.content-page {
+	padding: 100px 0 0 200px;
+}
+.head-sorta{
+	padding-bottom: 50px;
 }
