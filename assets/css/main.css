@@ -6177,3 +6177,10 @@ a.changecolor {
     display: none;
   }
 }
+
+#project1, #project2 {
+  position: relative !important;
+}
+h2:hover {
+  color: #E89F29;
+}
