@@ -20,6 +20,10 @@ Demo URI: 		http://demo.fuviz.com/reen
 :focus {
     outline: 0 !important;
 }
+.header-image {
+  width: 100%;
+}
+
 figure {
     margin: 0;
     padding: 0;
@@ -31,8 +35,11 @@ figure img {
 .portrait {
   /* placeholder */
 }
-.skills-header, .process-header, .contact-header {
+.process-header, .contact-header {
   padding: 50px 0;
+}
+.skills-header {
+  padding: 50px 0 0 0;
 }
 figure :not(.icon-overlay) a:hover,
 figure:not(.icon-overlay) > a:hover {
