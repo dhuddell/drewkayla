@@ -6181,7 +6181,7 @@ a.changecolor {
 #project1, #project2 {
   position: relative !important;
 }
-h2:hover {
+.contact-form h2:hover {
   color: #E89F29;
 }
 .mock-up{
