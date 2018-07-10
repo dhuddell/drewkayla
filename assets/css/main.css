@@ -6184,3 +6184,6 @@ a.changecolor {
 h2:hover {
   color: #E89F29;
 }
+.mock-up{
+  max-height: 200px;
+}
