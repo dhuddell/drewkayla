@@ -6203,3 +6203,12 @@ a.changecolor {
 .head-sorta{
 	padding-bottom: 50px;
 }
+#top > header > div > div > div > div > div > div > a > img {
+  min-height: 30px;
+}
+.kayla-logo {
+  display: inline;
+  max-height: 40px;
+  min-height: 30px;
+  margin-bottom:5px;
+}
