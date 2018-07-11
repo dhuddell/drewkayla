@@ -6194,7 +6194,9 @@ a.changecolor {
 .hi-fi {
 	max-height: 150px;
 }
-
+.card-sort, .redesign {
+	max-height: 400px;
+}
 .mock-up-big {
 	height: 500px;
   margin: 0 auto;
