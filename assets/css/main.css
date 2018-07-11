@@ -6189,10 +6189,12 @@ a.changecolor {
 }
 .mock-up{
   max-height: 200px;
+  margin: 0 auto;
 }
 
 .mock-up-big {
-	max-height: 500px;
+	height: 680px;
+  margin: 0 auto;
 }
 .deliverables {
 	padding-left: 50px;
