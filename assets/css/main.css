@@ -6181,7 +6181,7 @@ a.changecolor {
 #project1, #project2 {
   position: relative !important;
 }
-#contact-form h2:hover {
+a h2:hover {
   color: #E89F29;
 }
 .sub-headerz{
@@ -6218,4 +6218,7 @@ a.changecolor {
   max-height: 40px;
   min-height: 30px;
   margin-bottom:5px;
+}
+.mock-spacer {
+	padding: 30px;
 }
