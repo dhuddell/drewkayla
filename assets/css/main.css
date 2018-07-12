@@ -6181,7 +6181,7 @@ a.changecolor {
 #project1, #project2 {
   position: relative !important;
 }
-a h2:hover {
+#contact-form a h3:hover, a h2:hover {
   color: #E89F29;
 }
 .sub-headerz{
@@ -6192,7 +6192,7 @@ a h2:hover {
   margin: 0 auto;
 }
 .hi-fi {
-	max-height: 150px;
+	max-height: 220px;
 }
 .card-sort, .redesign {
 	max-height: 400px;
@@ -6221,4 +6221,11 @@ a h2:hover {
 }
 .mock-spacer {
 	padding: 30px;
+}
+.hifi-spacer {
+  padding-top: 40px;
+}
+.image-label {
+  font-weight:400;
+  padding-bottom:20px;
 }
